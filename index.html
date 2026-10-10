@@ -1,0 +1,346 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <script src="Portfolio.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="sectionButtons">
+      <button id="homeButton">Home</button>
+      <button id="skillButton">Skills</button>
+      <button id="projectsButton">Projects</button>
+      <button id="contactMeButton">Contact Me</button>
+    </div>
+    <div class="titleBasic">
+      <h1 style="font-size: 50; color: red">Aiden Parfitt</h1>
+      <h3 style="color: red; size: 35">An aspiring future web developer</h3>
+    </div>
+    <div class="basicInformation">
+      <h1 style="color: red">About Me</h1>
+      <p>
+        <i>
+          I am currently a year 2 software dev student who has a passion for the
+          tech world. I have also yearned for an opportunity to get a job in the
+          tech industry, via coding and am currently working very intensely to
+          work towards my career and my future.
+        </i>
+      </p>
+
+      <p>
+        <i>
+          My primary objective in the Software Developing industry is to make
+          fast, functional and great quality website and web apps, so that
+          anybody can use without confusion.
+        </i>
+      </p>
+    </div>
+
+    <div class="skills">
+      <h1 style="color: red">My Skills</h1>
+      <h2 style="color: orange">Technical skills</h2>
+      <p>
+        <b>
+          While slightly lacking in experience I still have learned a lot of
+          Software Developing skills at my time I have had thus far at NBCC such
+          as:
+        </b>
+      </p>
+      <ul>
+        <i>
+          <li>I know how to program using Front-end Javascript</li>
+          <li>Can program in HTML and CSS</li>
+          <li>
+            I know how to use BASH, windows command line(cmd) and basic
+            Powershell
+          </li>
+          <li>
+            I know how to code in SQL and I have knowledge of Database Design,
+            such as ERD tables.
+          </li>
+          <li>Know how to code in C#</li>
+          <li>I know about project management and Object Oriented Design</li>
+          <li>
+            I have more basic knowledge of Object Oriented Programming(OOP)
+          </li>
+        </i>
+      </ul>
+      <h2 style="color: orange">Hard skills/Soft skills</h2>
+      <p>
+        I possess some soft skills and hard skills that I find would work
+        splendidly for the software development industry such as:
+      </p>
+
+      <ul>
+        <i>
+          <li>
+            I am really good at professional writing such as writing letters or
+            emails
+          </li>
+          <li>I am good at working with others</li>
+          <li>I am great at organization</li>
+          <li>I am an individual you can be dependant on</li>
+          <li>I am good at solving problems</li>
+          <li>I am very willing to learn and adapt</li>
+          <li>
+            I have a lot of empathy for others and constantly makes sure to
+            assist others when I can
+          </li>
+        </i>
+      </ul>
+    </div>
+    <div class="Education">
+      <h1 style="color: red">My Education</h1>
+      <p>
+        <b>
+          I am a part of the IT:Software Development Program at NBCC Saint John
+          from September of 2025 until the estimated date of June of 2028
+        </b>
+      </p>
+      &nbsp;
+      <p>
+        <b>
+          As of right now I have finished year 1 of my program and I split my
+          program into two separate years to split the course load hence why I
+          am graduating in mid-2028
+        </b>
+      </p>
+      &nbsp;
+      <p>
+        <b>
+          The most impactful courses I found I have done in this far is Objected
+          Oriented Programming, Responsive Web and Command Line Interface:Bash
+        </b>
+      </p>
+    </div>
+    <div class="myProjects">
+      <h1 style="color: red">My Projects</h1>
+      <p>
+        <b
+          >The projects listed down below are the projects that I am the most
+          proud of thus far. I was the sole programmer of all of these
+          projects.</b
+        >
+      </p>
+      <h2 id="Quiz" style="color: orange">Quiz Application</h2>
+      <div id="quizDiv">
+        <p>
+          <i>
+            This project is a webpage that loads a quiz based around video game
+            history trivia. The Functionality of the Quiz is similar to your
+            usual online quiz, but you cannot progress in the quiz unless you
+            answer the next question and when you finish the quiz a chart
+            appears underneath showing your answers, the correct answer, if you
+            received a point from the question and it is highlighted red or
+            green depending if you are right or wrong
+          </i>
+        </p>
+
+        <div id="project1Image">
+          <img
+            style="width: 600px; height: 350px; border: solid"
+            src="quizProject.png"
+          />
+
+          <p>
+            <b
+              >The following block of code contains a function that is used to
+              show the final result of the quiz. The start of the function
+              declares all of the objects used to create the final table. The
+              next thing the function does is if the amount of answers that you
+              answer matches the amount on the question the quiz it creates the
+              result table. Then after the initial are set up the function goes
+              through every question on the quiz. Then it checks if your answers
+              were correct and gives you a point if said question was correct.
+              In one of the columns it shows the correct answer and in another
+              it stores your answer. After the loop is finished it will count
+              all your point and give you a result out of 10. If you did not
+              answer all of the questions the website will alert you that you
+              have finished the quiz.</b
+            >
+          </p>
+
+          <img
+            style="width: 600px; height: 500px; border: solid"
+            src="resultFunction1.png"
+          />
+
+          <img
+            style="width: 600px; height: 350px; border: solid"
+            src="resultFunction2.png"
+          />
+          <p><i>For this project I used Visual Studio Code.</i></p>
+
+          <p>
+            <i
+              >The repository for this project:<a
+                href="https://github.com/AidenParfitt/Video-Game-Quiz-Web-Application-"
+                >Quiz App</a
+              ></i
+            >
+          </p>
+        </div>
+      </div>
+      <h2 id="addStuff" style="color: orange">Add Items Application</h2>
+      <div id="addItems">
+        <p>
+          <i
+            >This project was made initially for practice with the basics of OOP
+            such as creating properties, constructors, getter and setters, class
+            methods and utilizing them in a WindowsFormAPP. The functionality of
+            this app is naming an item, selecting a category that it is from and
+            giving an item a property, in this case a pet's name. You can save
+            the name to the groupBox and can reset the entire application via a
+            button.</i
+          >
+        </p>
+
+        <div id="project2Image">
+          <img
+            style="width: 600px; height: 350px; border: solid"
+            src="Lab01.png"
+          />
+
+          <p>
+            <b
+              >This is a C# method that is used to save the listed down
+              properties of the newly added item e.g(Name, Age, etc). The method
+              starts by declaring a string to store the result of the item type.
+              Then the method sees if a name has been listed down for the new
+              item. If the item does not contain a name the default item from
+              the class will be added to the listbox, if the item has a name it
+              will add the item you created to the list box</b
+            >
+          </p>
+
+          <img
+            style="width: 600px; height: 500px; border: solid"
+            src="btnSaveMethod.png"
+          />
+
+          <p>
+            <i
+              >For this project I primarily used Visual Studio 2022 using a
+              WindowsFormAPP.</i
+            >
+          </p>
+
+          <p>
+            <i
+              >The repository for this project:
+              <a
+                href="https://github.com/AidenParfitt/Object-Orientad-Programming-Pet-Adding-Application"
+                >Add Items Application</a
+              ></i
+            >
+          </p>
+        </div>
+      </div>
+      <h2 id="Organizer" style="color: orange">Javascript Item Organizer</h2>
+      <div id="Item">
+        <p>
+          <i>
+            The last project I am proud of is another website that is used to
+            organize items. This project starts with a list of items that was
+            made using an array of objects. There is a search block that
+            contains various properties of an object, for example a video game's
+            title or it's publisher. Then anything that is applicable with your
+            search will be highlighted in red. You can also add brand new Items
+            with the "add game" box that allows you to add your own items.
+          </i>
+        </p>
+
+        <div id="projectImage3">
+          <p>
+            <i
+              >The following image shows the initial items in the app and some
+              of the search bar and the image shows to be searching for any name
+              that contains "Mario".</i
+            >
+          </p>
+          <img
+            style="width: 600px; height: 350px; border: solid"
+            src="Game Manager 1.png"
+          />
+          <p>
+            <i
+              >The following Image shows the rest of the search box and the add
+              Item box for adding items</i
+            >
+          </p>
+          <img
+            style="width: 300px; height: 350px; border: solid"
+            src="Game Manager 2.png"
+          />
+          <p>
+            <i
+              >The final image displays the chart of all the items again but,
+              with a newly added item at the bottom</i
+            >
+          </p>
+          <img
+            style="width: 450px; height: 350px; border: solid"
+            src="Game Manger 3.png"
+          />
+
+          <p>
+            <b
+              >The following image displays a block of code that is used to
+              search for genres of the items. The function first reloads the
+              table with the "LoadGames()". Then it makes variables for to
+              connect the Javascript file to the genre input class, then creates
+              a variable that finds every table row in the html file. Then the
+              function loops through every Item and then looks in the 4th(genre)
+              table row and goes through every cell in that row and if any of
+              the letters match in the genre table row it will highlight that
+              cell red signifying that it found a match.</b
+            >
+          </p>
+
+          <img
+            style="width: 650px; height: 450px; border: solid"
+            src="searchGenreFunction.png"
+          />
+
+          <p><i>For this project I used Visual Studio Code.</i></p>
+
+          <p>
+            <i>
+              The Repository for this project:<a
+                href="https://github.com/AidenParfitt/Object-Organizer-web-application"
+                >Item Organizer</a
+              >
+            </i>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="my-contactInformation">
+      <h1 style="color: red">My Contact Information</h1>
+      <h2 style="color: orange">Email</h2>
+      <p>
+        <b
+          >If you want to contact me via email you can use my email
+          aparfitt01@mynbcc.ca</b
+        >
+      </p>
+      &nbsp;
+      <h2 style="color: orange">Phone</h2>
+      <p>
+        <b
+          >If you want to contact me via phone call, you can contact me with my
+          phone number 1-506-994-0207 or my secondary phone number at
+          1-506-485-2917</b
+        >
+      </p>
+      &nbsp;
+      <h2 style="color: orange">Socials</h2>
+      <p>
+        <b> You can Contact me on my Github: </b
+        ><a href="https://github.com/AidenParfitt">Aiden Parfitt</a>
+      </p>
+      &nbsp;
+    </div>
+    <div class="hideSections"></div>
+  </body>
+</html>

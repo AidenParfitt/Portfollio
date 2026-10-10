@@ -1,0 +1,188 @@
+body {
+  background-color: gray;
+  padding: 0;
+  margin: 0;
+}
+li {
+  align-self: center;
+}
+.basicInformation {
+  display: grid;
+  background-color: aliceblue;
+  width: 80%;
+  height: 50%;
+  justify-self: center;
+  text-align: center;
+  color: black;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  border-style: solid;
+}
+.titleBasic {
+  display: grid;
+  background-color: grey;
+  width: 80%;
+  height: 30%;
+  justify-self: center;
+  text-align: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: black;
+}
+.skills {
+  text-align: center;
+  display: grid;
+  background-color: aliceblue;
+  width: 80%;
+  height: 100%;
+  justify-self: center;
+  text-align: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: black;
+  border-style: solid;
+}
+.Education {
+  display: grid;
+  background-color: whitesmoke;
+  width: 80%;
+  height: 50%;
+  justify-self: center;
+  text-align: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: black;
+  border: solid;
+  border-spacing: 4px;
+}
+.myProjects {
+  text-align: center;
+  display: grid;
+  background-color: aliceblue;
+  width: 80%;
+  min-height: 100vh;
+  justify-self: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: black;
+  border-style: solid;
+}
+.my-contactInformation {
+  display: grid;
+  background-color: aliceblue;
+  width: 30%;
+  height: 100vh;
+  justify-self: center;
+  justify-items: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  text-align: center;
+  color: black;
+  border-style: solid;
+}
+.sectionButtons {
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  width: 100%;
+  height: 15%;
+  border-style: solid;
+
+  background-color: gainsboro;
+}
+.hideSections {
+  display: none;
+}
+#homeButton {
+  background-color: gainsboro;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 25%;
+  height: 50%;
+  color: red;
+  border: solid;
+}
+#contactMeButton {
+  background-color: gainsboro;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 25%;
+  height: 50%;
+  color: red;
+  border: solid;
+}
+#skillButton {
+  background-color: gainsboro;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 25%;
+  height: 50%;
+  color: red;
+  border: solid;
+}
+#projectsButton {
+  background-color: gainsboro;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 25%;
+  height: 50%;
+  color: red;
+  border: solid;
+}
+#projectsButton:disabled {
+  background-color: yellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 50%;
+  width: 25%;
+}
+
+#homeButton:disabled {
+  background-color: yellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 50%;
+  width: 25%;
+  border: solid;
+}
+
+#skillButton:disabled {
+  background-color: yellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 50%;
+  width: 25%;
+  border: solid;
+}
+
+#contactMeButton:disabled {
+  background-color: yellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 50%;
+  width: 25%;
+  border: solid;
+}
+#project1Image {
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+}
+
+#project2Image {
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+}
+#projectImage3 {
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+}
+#Quiz {
+  content: ">";
+}
+#Item {
+  content: ">";
+}
+#Organizer {
+  content: ">";
+}
