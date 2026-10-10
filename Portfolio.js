@@ -136,7 +136,7 @@ function dropQuestionProject() {
     "</h2>";
   Ohtml +=
     "<h2 style='color: orange;'>" +
-    "Javascript Item Organizer" +
+    "JavaScript Item Organizer" +
     sideArrow +
     "</h2>";
 
@@ -170,7 +170,7 @@ function dropAddItems() {
     "</h2>";
   Ohtml +=
     "<h2 style='color: orange;'>" +
-    "Javascript Item Organizer" +
+    "JavaScript Item Organizer" +
     sideArrow +
     "</h2>";
 
@@ -203,7 +203,7 @@ function dropOrganizeItems() {
     "</h2>";
   Ohtml +=
     "<h2 style='color: orange;'>" +
-    "Javascript Item Organizer" +
+    "JavaScript Item Organizer" +
     downArrow +
     "</h2>";
 
